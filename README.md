@@ -93,7 +93,7 @@ We'll start up our local Node.js web server using Grunt, so it can automatically
 
 This will start our local web server on port `3030`.
 
-You can view it in your web browser at `http://localhost:3030/`. You will see that it's nothing there, except a blank page.
+You can view it in your web browser at `http://localhost:3030/`. **You will see that it's nothing there, except a blank page.**
 
 ## Adding features
 
@@ -103,8 +103,8 @@ We've got some branches you can check out that show how to add certain features.
 
 ### Enable server side rendering
 
-Goal: have the server render the current page and serve finished HTML to the browser
-Hint: Have a look in app/router/renderer/index.js
+* Goal: have the server render the current page and serve finished HTML to the browser
+* Hint: Have a look in app/router/renderer/index.js
 
 ### Server side flow
 
@@ -112,8 +112,8 @@ Figure out how the server renders a page, all the way from a request hitting app
 
 ### Enable client side rendering
 
-Goal: have the client render the current page on load. You should see "Rendered on the server" change to "Rendered on the client"
-Hint: Have a look in app/router/renderer/client.js
+* Goal: have the client render the current page on load. You should see "Rendered on the server" change to "Rendered on the client"
+* Hint: Have a look in app/router/renderer/client.js
 
 ### Client side flow
 
@@ -121,16 +121,16 @@ Continuing on the server side flow, figure out how the client side JavaScript en
 
 ### Use Marked library to add Markdown to posts
 
-[compare to master](https://github.com/ewendel/isomorphic-tutorial/compare/markdown)
-
 This branch adds the [Marked](https://github.com/chjj/marked) library to allow
 formatting of blog post bodies in Markdown, in just a few lines of code.
 
+[solution](https://github.com/ewendel/isomorphic-tutorial/compare/master...ewendel:markdown)
+
 ### Create a route for adding posts
 
-[compare to master](https://github.com/ewendel/isomorphic-tutorial/compare/posts-new)
-
 Create a page with a form at `/posts/new`, which POSTs to the `/api/posts.json` endpoint.
+
+[solution](https://github.com/ewendel/isomorphic-tutorial/compare/master...ewendel:posts-new)
 
 ### Fluxible
 
