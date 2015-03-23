@@ -10,6 +10,7 @@ function Router(routesFn) {
   if (routesFn == null) throw new Error("Must provide routes.");
 
   this.directorRouter = new DirectorRouter(this.parseRoutes(routesFn));
+  this.directorRouter.configure({ recurse: null });
   this.renderer = new Renderer;
 
   if (!isServer) {
