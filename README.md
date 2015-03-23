@@ -74,15 +74,15 @@ This app uses [Grunt](http://gruntjs.com/) to build its assets. To run Grunt, we
 ### Clone this repo onto your machine
 
     $ cd ~/code
-    $ git clone git@github.com:spikebrehm/isomorphic-tutorial.git
+    $ git clone git@github.com:ewendel/isomorphic-tutorial.git
     $ cd isomorphic-tutorial
 
 ### Run `npm install` to install dependenices
 
-	$ npm install
-	npm http GET https://registry.npmjs.org/superagent
-	npm http GET https://registry.npmjs.org/handlebars
-	npm http GET https://registry.npmjs.org/director
+  $ npm install
+  npm http GET https://registry.npmjs.org/superagent
+  npm http GET https://registry.npmjs.org/handlebars
+  npm http GET https://registry.npmjs.org/director
     ...
 
 ### Run the app!
@@ -101,22 +101,16 @@ Now that you've got it running, you can start adding some features to get to kno
 
 We've got some branches you can check out that show how to add certain features.
 
-### Adding the Moment library for date formatting
-
-[compare to master](https://github.com/spikebrehm/isomorphic-tutorial/compare/moment)
-
-This branch adds the [Moment](http://momentjs.com/) date formatting library for use on the `/posts/:id` page.
-
 ### Use Marked library to add Markdown to posts
 
-[compare to master](https://github.com/spikebrehm/isomorphic-tutorial/compare/markdown)
+[compare to master](https://github.com/ewendel/isomorphic-tutorial/compare/markdown)
 
 This branch adds the [Marked](https://github.com/chjj/marked) library to allow
 formatting of blog post bodies in Markdown, in just a few lines of code.
 
 ### Create a route for adding posts
 
-[compare to master](https://github.com/spikebrehm/isomorphic-tutorial/compare/posts-new)
+[compare to master](https://github.com/ewendel/isomorphic-tutorial/compare/posts-new)
 
 Create a page with a form at `/posts/new`, which POSTs to the `/api/posts.json` endpoint.
 
