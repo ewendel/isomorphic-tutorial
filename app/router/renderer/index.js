@@ -10,7 +10,7 @@ function RendererServer() {}
 RendererServer.viewsDir = process.cwd() + '/app/views';
 
 RendererServer.prototype.render = function(component, req, res) {
-  var html = React.renderToString(component);
+  var html = ""; // <Write code to render on the server side here>
 
   var locals = {
     body: html,

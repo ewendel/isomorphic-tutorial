@@ -10,7 +10,7 @@ function RendererClient() {}
 RendererClient.viewsDir = 'app/views';
 
 RendererClient.prototype.render = function(component) {
-  React.render(component, document.getElementById('view-container'));
+  // <Write code to render on the client side here>
 };
 
 RendererClient.prototype.handleErr = function(err) {
